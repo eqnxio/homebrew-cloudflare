@@ -2,9 +2,9 @@ class Edgetunnels < Formula
   desc ''
   homepage 'https://dl.equinox.io/cloudflare/edgetunnels'
 
-  url 'https://bin.equinox.io/a/nfGtf7xDuJV/edgetunnels-2017.9.1-darwin-amd64.tar.gz'
-  sha256 'bdfffce325d3e95129c2837419a2e6785ea9616609f69f54bc2d39763320e07c'
-  version '2017.9.1'
+  url 'https://bin.equinox.io/a/7WnQFLdBtaE/edgetunnels-2017.9.2-darwin-amd64.tar.gz'
+  sha256 '18287331b86cd8d789a8bbd18796f62f343b258513ffef08c139ed5cdb273d84'
+  version '2017.9.2'
 
   def install
     bin.install 'et'
