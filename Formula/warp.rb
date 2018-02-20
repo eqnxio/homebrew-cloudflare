@@ -2,9 +2,9 @@ class Warp < Formula
   desc ''
   homepage 'https://dl.equinox.io/cloudflare/warp'
 
-  url 'https://bin.equinox.io/a/2eZtu95Ujd8/warp-2018.2.0-darwin-amd64.tar.gz'
-  sha256 '1c854e9978228cb832aedb221a6c64395d073249c7ed615368e1274ca7dc319c'
-  version '2018.2.0'
+  url 'https://bin.equinox.io/a/8RUfA8UBfXV/warp-2018.2.1-darwin-amd64.tar.gz'
+  sha256 'dbcbd4947e700a82387242acaa3585bba7aea6c9568c09ca1f6114a85e58eb6e'
+  version '2018.2.1'
 
   def install
     bin.install 'cloudflare-warp'
