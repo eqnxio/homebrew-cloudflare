@@ -2,9 +2,9 @@ class Cloudflared < Formula
   desc ''
   homepage 'https://dl.equinox.io/cloudflare/cloudflared'
 
-  url 'https://bin.equinox.io/a/7zs4jJEVtW/cloudflared-2019.8.1-darwin-amd64.tar.gz'
-  sha256 'e58650b583af8adac609da5caa7038005efcaf768ce28fd6898809c603152bd4'
-  version '2019.8.1'
+  url 'https://bin.equinox.io/a/7KMc8zcBcs/cloudflared-2019.8.4-darwin-amd64.tar.gz'
+  sha256 '57454afd647c59e57ff51747b1cbecd88a6e0c93e90f1e22b5e6ac45b166123d'
+  version '2019.8.4'
 
   def install
     bin.install 'cloudflared'
