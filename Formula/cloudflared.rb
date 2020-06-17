@@ -2,9 +2,9 @@ class Cloudflared < Formula
   desc ''
   homepage 'https://dl.equinox.io/cloudflare/cloudflared'
 
-  url 'https://bin.equinox.io/a/62nMa1xuADK/cloudflared-2020.6.4-darwin-amd64.tar.gz'
-  sha256 'a21036dba44b7d9c9ac8d2b43f345d10a2456a28d0c03e0c7d28d512afb80207'
-  version '2020.6.4'
+  url 'https://bin.equinox.io/a/4zjPYJQ55uX/cloudflared-2020.6.5-darwin-amd64.tar.gz'
+  sha256 'e30cb957379b2f122b15aeaf8c887fff7f354a1270a361a990cae94ac9b10528'
+  version '2020.6.5'
 
   def install
     bin.install 'cloudflared'
